@@ -123,9 +123,3 @@ body {background-color: rgba(123, 196, 241, 0.5);}
     margin: 0;
     padding: 0;
 }  
-
-span  {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
-}
