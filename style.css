@@ -41,9 +41,12 @@
 
 /** Image - https://www.w3schools.com/css/css_rwd_grid.asp **/   
 img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
+    border-radius: 10%;
+    filter: drop-shadow(5px 5px 5px #3f3f3f);
 }
+
 
 /*------------------------------------------------------Overflow------------------------------------------------------*/
 
@@ -115,3 +118,14 @@ body {background-color: rgba(123, 196, 241, 0.5);}
     padding-left: 22px ;
     text-indent: -22px ;
   } 
+
+.nav {
+    margin: 0;
+    padding: 0;
+}  
+
+span  {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
