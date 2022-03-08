@@ -5,6 +5,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Home - All Rights Reserved</title>
     <link rel='stylesheet' href='style.css'>
+    <script src="app.js" charset="utf-8"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -13,107 +14,291 @@
 </head>
 
 <body>
-    <nav class="row nav center">
-        <div class="col-1 logo"><a href="#">®</a></div>
-        <div class="col-2"></div>
-        <div class='col-1'><a href='https://zekewandeler.github.io/index.html'>Home</a></div>
-        <div class='col-1 '><a href='https://zekewandeler.github.io/nested.html'>Nested</a></div>
-        <div class='col-1 '><a href='https://zekewandeler.github.io/tags.html'>Tags</a></div>
-        <div class='col-1 '><a href='https://zekewandeler.github.io/attributes.html'>Attributes</a></div>
-        <div class='col-1 '><a href='https://zekewandeler.github.io/zeke.html'>Zeke</a></div>
-        <div class='col-1 '><a href='https://sinabeana4283.github.io'>Sarina</a></div>
-        <div class='col-1 '><a href='https://alexanderspoon.github.io'>Alex</a></div>
-        <div class='col-1 '><a href='https://sydreinert.github.io'>Sydney</a></div>
-        <div id="backgroundShape" style="background-color: #b32aac;"></div>
-    </nav>
-    <br>
-    <br>
+    <div class="boxSize">
+        <nav class="row nav center">
+            <div class="col-1 logo"><a href="#">®</a></div>
+            <div class='col-3'></div>
+            <div class='col-1'><a href='https://zekewandeler.github.io/index.html'>Home</a></div>
+            <div class='col-1 '><a href='https://zekewandeler.github.io/zeke.html'>Zeke</a></div>
+            <div class='col-1 '><a href='https://sinabeana4283.github.io'>Sarina</a></div>
+            <div class='col-1 '><a href='https://alexanderspoon.github.io'>Alex</a></div>
+            <div class='col-1 '><a href='https://sydreinert.github.io'>Sydney</a></div>
+        </nav>
+        <br>
+        <br>
 
-    <div>
-        <h1 class='center' id="name" style="font-family: federo, sans-serif;">
-            Alexander Spoon
-        </h1>
+        <div>
+            <h1 class='center' id="name" style="font-family: federo, sans-serif;">
+                Alexander Spoon
+            </h1>
 
-        <h3 id="subText">~ Aspiring ~</h3>
-        <div id=container>
-            <div id=flip>
-              <div><div>developer</div></div>
-              <div><div>artist</div></div>
-              <div><div>innovator</div></div>
+            <h3 id="subText">~ Aspiring ~</h3>
+            <div id=container>
+                <div id=flip>
+                <div><div>developer</div></div>
+                <div><div>artist</div></div>
+                <div><div>innovator</div></div>
+                </div>
             </div>
-          </div>
+
+            <br>
+        </div>
 
         <br>
-    </div>
 
-    <br>
+        <div class='row'> <!--Me-->
+            <div class='col-1'></div>
+            <div class='col-5 center'>
 
-    <div class='row'> <!--Me-->
-        <div class='col-1'></div>
-        <div class='col-5 center'>
+                <h3 class="center">About Me</h3>
+                <hr>
+                <p>
+                    My name is Alexander Spoon. 
+                    I've lived most of my life in Tennessee, then moved to Boise, ID in highschool.
+                    I mostly studied engineering prior to College. 
+                    I'm currently attending Boise State University and studying game design.
+                    My main interests are traditional and digital art, video games, and programming.
+                </p>
 
-            <h3 class="center">About Me</h3>
-            <hr>
-            <p>
-                My name is Alexander Spoon. 
-                I've lived most of my life in Tennessee, then moved to Boise, ID in highschool.
-                I mostly studied engineering prior to College. 
-                I'm currently attending Boise State University and studying game design.
-                My main interests are traditional and digital art, video games, and programming.
-            </p>
-
+            </div>
+            <div class='col-5 center'>
+                <img src="me.jpg" class="alexImages" alt="Profile picture"></img>
+            </div>
+            <div class='col-1'></div>
         </div>
-        <div class='col-5 center'>
-            <img src="me.jpg" class="alexImages" alt="Profile picture"></img>
+        
+        <br>
+        <br>
+        <br>
+
+        <div class='row'> <!--Engineering-->
+            <div class='col-1'></div>
+            <div class='col-5 center'>
+                <h3 class="center">Engineering</h3>
+                <hr>
+                <p>
+                    Here is a picture of a 3D printed prosthetic hand I designed from the ground up.
+                    The project was cut about 3 months short due to Covid, but it's still functional.
+                </p>
+            </div>
+            <div class='col-5 center'>
+                <img src="hand.jpg" class="alexImages" alt="Profile picture"></img>
+            </div>
+            <div class='col-1'></div>
         </div>
-        <div class='col-1'></div>
-    </div>
-    
-    <br>
-    <br>
-    <br>
 
-    <div class='row'> <!--Engineering-->
-        <div class='col-1'></div>
-        <div class='col-5 center'>
-            <h3 class="center">Engineering</h3>
-            <hr>
-            <p>
-                Here is a picture of a 3D printed prosthetic hand I designed from the ground up.
-                The project was cut about 3 months short due to Covid, but it's still functional.
-            </p>
+        <br>
+        <br>
+        <br>
+
+        <div class="demo"></div>
+
+        <div class='row'> <!--Art-->
+            <div class='col-1'></div>
+            <div class='col-5 center'>
+
+                <h3 class="center">Art</h3>
+                <hr>
+                <p>
+                    I can work with most mediums, but my best art is with oil pastels. 
+                    Here is a piece I did using pastels and colored pencils. 
+                </p>
+
+            </div>
+            <div class='col-5 center'>
+
+                <img src="raven.PNG" class="alexImages" alt="Profile picture"></img>
+                
+            </div>
+            <div class='col-1'></div>
         </div>
-        <div class='col-5 center'>
-            <img src="hand.jpg" class="alexImages" alt="Profile picture"></img>
-        </div>
+    </div> <!--End of boxsize-->
+
+    <div class='row'>
         <div class='col-1'></div>
-    </div>
 
-    <br>
-    <br>
-    <br>
+        <div class='col-5'>
+            <div class="game center">
+                <h2>Snake</h2>
+                <hr>
+                <p>W,A,S,D to move</p>
+                <div class="score">Score: <span>0</span></div>
 
-    <div class="demo"></div>
+                <div class="grid2 marginCenter">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
 
-    <div class='row'> <!--Art-->
-        <div class='col-1'></div>
-        <div class='col-5 center'>
+                <button class="start gameBtn">Start</button>
 
-            <h3 class="center">Art</h3>
-            <hr>
-            <p>
-                I can work with most mediums, but my best art is with oil pastels. 
-                Here is a piece I did using pastels and colored pencils. 
-            </p>
+            </div> <!--End of game class-->
+        </div> <!--End of col-5-->
 
-        </div>
-        <div class='col-5 center'>
+        <div class='col-5'>
+            <div class="game center">
+                <h2>Connect 4</h2>
+                <hr>
+                <p>Click an empty space to place a tile</p>
+                <h3>The current Player is: Player <span id="current-player">1</span></h3>
+                    <h3 id="result"></h3>
 
-            <img src="raven.PNG" class="alexImages" alt="Profile picture"></img>
-            
-        </div>
-        <div class='col-1'></div>
-    </div>
+                    <div class="grid marginCenter">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="taken"></div>
+                        <div class="taken"></div>
+                        <div class="taken"></div>
+                        <div class="taken"></div>
+                        <div class="taken"></div>
+                        <div class="taken"></div>
+                        <div class="taken"></div>
+                    </div>
+
+                    <button id="refresh" class="gameBtn">Refresh</button>
+            </div><!--End of game class-->
+        </div> <!--End of col-5-->
+
+        <div class='col-1'></div> <!--Filler-->
+
+    </div> <!--End of row-->
 
 
 
