@@ -1,7 +1,6 @@
 /** Grid system - https://www.w3schools.com/css/css_rwd_grid.asp **/
-* {
+.boxSize {
     box-sizing: border-box;
-
 }
 
 body {
@@ -58,6 +57,10 @@ img {
     text-align: center;
 }
 
+.marginCenter {
+    margin:auto;
+}
+
 .nav {
     font-weight: 900;
     margin: 2em 0 0em 0;
@@ -70,6 +73,7 @@ img {
 
 .nav a:hover{
     color: rgba(0,0,0,1);
+    font-size: 110%;
 }
 
 #backgroundShape {
@@ -92,12 +96,158 @@ img {
     border-radius: 6px;
     padding: 5%;
     background-color: white;
-    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 20px rgba(83, 68, 40, 0.2);
+    margin: 25px;
 }
 
-img {
-    filter: drop-shadow(5px 5px 5px #161818);
+.attrEx {
+    color:rgb(255, 0, 234);
+}
+
+.alexImages {
+    box-shadow: 10px 10px 20px rgba(54, 44, 25, 0.2);
+    border-radius: 15%;
+    border: 5px solid rgb(255, 255, 255);
+    width: 75%;
+}
+
+#name {
+    font-size: 220%;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+
+#subText {
+    font-style: oblique;
+    font-size: 110%;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+
+
+/* modified code from https://codepen.io/yemon/details/pWoROm */
+#container {
+    color:#999;
+    text-transform: uppercase;
+    font-size:36px;
+    font-weight:bold;
+    display:block;
+    text-align: center;
+  }
+  
+  #flip {
+    height:50px;
+    overflow:hidden;
+
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background:#8b50ce;
+  }
+  #flip div:first-child div {
+    background:#dc9614;
+  }
+  #flip div:last-child div {
+    background:#df81a5;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+
+
+
+.gameBtn {
+    background-color: #dc9614;
+    color: white;
+    border: none;
+    margin: 2em 0 0 0;
+    height: 50px;
+    width: 100px;
     border-radius: 10%;
+    font-weight: 800;
+}
+
+.game {
+    border-radius: 5%;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(83, 68, 40, 0.2);
+    margin: 25px;
+}
+
+.score {
+    margin:5px;
+}
+  
+/* For Snake */
+
+.grid2 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: #d9ffff;
+}
+
+.grid2 div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: rgb(109, 235, 98);
+    border-radius: 25%;
 }
 
 
+.apple {
+    background-color: rgb(223, 72, 72);
+    border-radius: 50%;
+}
+
+/* For Connect 4 */
+
+.grid {
+    border: 3px solid;
+    height: 120px;
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d9ffff;
+  }
+  
+  .grid div {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .player-one {
+    background-color: rgb(62, 219, 0);
+    border-radius: 10px;
+  }
+  
+  .player-two {
+    background-color: rgb(224, 40, 40);
+    border-radius: 10px;
+  }
